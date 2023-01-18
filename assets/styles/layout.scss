@@ -1,0 +1,27 @@
+@import "@/assets/styles/_variables.scss";
+
+.header {
+  display: block;
+  position: relative;
+  -webkit-box-shadow: 0 0 12px rgb(0 0 0 / 45%);
+  -moz-box-shadow: 0 0 12px rgb(0 0 0 / 45%);
+  box-shadow: 0 0 12px rgb(0 0 0 / 45%);
+
+  &__links {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px !important;
+  }
+}
+
+.content {
+  height: 100%;
+  background-color: $white2;
+  overflow: auto;
+}
